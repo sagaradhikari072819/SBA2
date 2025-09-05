@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Building a Responsive and Accessible Web Page</title>
+  </head>
+  <body>
+    <header role="header">
+      <h1>Welcome To <i>WounderLand Travel Agency</i>.</h1>
+      <div class="img">
+        <img src="https://picsum.photos/id/237/150/150" alt="picture of dog." />
+      </div>
+
+      <nav role="nevigation" aria-label="Main navigation">
+        <ul class="nav">
+          <li>
+            <a href="#Home"><h1>Home</h1></a>
+          </li>
+          <li>
+            <a href="#About"><h1>About Us</h1></a>
+          </li>
+          <li>
+            <a href="#Service"><h1>Service</h1></a>
+          </li>
+          <li>
+            <a href="#Contact"><h1>Contact Us</h1></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+      <hero id="Home">
+        <h2>We are pleased to have you!!</h2>
+        <p>
+          Wonderland is a full-service travel agency that specializes in
+          crafting unforgettable and stress-free travel experiences. Our mission
+          is to transform your dream vacation into a reality, whether it's an
+          adventurous global tour, a magical family trip to a Disney
+          destination, or a relaxing cruise. By handling all the complex
+          logistics, from booking flights and accommodation to planning detailed
+          itineraries, our experienced agents save you valuable time and money.
+          We leverage our industry expertise and strong relationships with
+          travel providers to secure exclusive deals and offer personalized
+          service that caters to your unique preferences and budget. With
+          Wonderland, you can focus on making lasting memories while we take
+          care of every detail, including providing 24/7 support for any
+          unexpected issues.
+          <a href="README.md"><button onclick="Contact">Call US.</button></a>
+        </p>
+      </hero>
+      <section id="About">
+        <h2>About us</h2>
+        <p>
+          Wonderland is a full-service travel agency that specializes in
+          crafting unforgettable and stress-free travel experiences. Our mission
+          is to transform your dream vacation into a reality, whether it's an
+          adventurous global tour, a magical family trip to a Disney
+          destination, or a relaxing cruise. By handling all the complex
+          logistics, from booking flights and accommodation to planning detailed
+          itineraries, our experienced agents save you valuable time and money.
+          We leverage our industry expertise and strong relationships with
+          travel providers to secure exclusive deals and offer personalized
+          service that caters to your unique preferences and budget. With
+          Wonderland, you can focus on making lasting memories while we take
+          care of every detail, including providing 24/7 support for any
+          unexpected issues.
+        </p>
+      </section>
+      <section id="Service">
+        <h2>Our Services</h2>
+        <ul>
+          <li><h4>Destination Planning & Booking</h4></li>
+          <li><h4>tinerary Development & Customization</h4></li>
+          <li><h4>Travel Expertise & Guidance</h4></li>
+          <li><h4>Support & Troubleshooting</h4></li>
+        </ul>
+
+        <div id="servicesGrid">
+          <article>
+            <h3>Destination Planning & Booking</h3>
+            <p>
+              Travel agents handle the complex logistics of your trip by booking
+              flights, hotels, car rentals, and other transportation options to
+              match your budget and preferences. They have access to a wide
+              range of suppliers and can secure favorable rates and itineraries,
+              creating a comprehensive travel package for you.
+            </p>
+          </article>
+          <article>
+            <h3>tinerary Development & Customization</h3>
+            <p>
+              Beyond standard bookings, agencies can craft personalized
+              itineraries that include sightseeing tours, specific experiences,
+              and special requests. They can customize existing tour packages or
+              build a trip from the ground up, ensuring the travel experience is
+              tailored to your interests and goals.
+            </p>
+          </article>
+          <article>
+            <h3>Travel Expertise & Guidance</h3>
+            <p>
+              A key benefit of using a travel agency is the professional advice
+              and local knowledge provided. Agents can offer insights into visa
+              requirements, health and safety measures, and cultural nuances,
+              helping you navigate potential challenges and make informed
+              decisions.
+            </p>
+          </article>
+          <article>
+            <h3>Support & Troubleshooting</h3>
+            <p>
+              Travel agents provide ongoing support, acting as a point of
+              contact if issues arise during your trip. This can include
+              assistance with unexpected changes, flight delays, or other
+              problems, ensuring a seamless and comfortable experience from
+              start to finish.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="Contact">
+        <h2>Contact Us</h2>
+        <form action="">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="name">Name:</label>
+          <input type="name" id="name" name="name" required />
+
+          <label for="message">Message:</label>
+          <input type="text" id="message" name="message" required />
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h4>copyright 2025 PS, connect with us</h4>
+      <a href="https://www.linkedin.com/in/milanad/">Linkedin</a>
+      <h4>Phone:999-999-9999</h4>
+    </footer>
+  </body>
+</html>

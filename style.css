@@ -1,0 +1,73 @@
+header {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg");
+  
+}
+main{
+text-emphasis-color: black;
+}
+body{
+   background-color: rgb(215, 249, 250);
+   font-family: 'Courier New', Courier, monospace;
+}
+div{
+  display: flex;
+  justify-content:end;
+}
+
+header{
+    background-color: rgb(24, 142, 196);
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+article{
+background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg");
+/* background-color: rgb(255, 243, 240); */
+border: 1px solid black;
+border-radius: 8px;
+padding: 10px;
+margin: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#servicesGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+button{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+    
+}
+
+button:hover{
+    background-color: rgb(0, 255, 81);
+}
+footer{
+  
+    text-align: center;
+    background-color: cadetblue;
+    color: rgb(255, 255, 255);
+    font-size:medium;
+}
+
+@media(max-width: 660px){
+nav ul {
+    flex-direction: column;
+}
+nav a {
+    font-size: x-small;
+}
+}
